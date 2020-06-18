@@ -25,32 +25,58 @@ body {
 }
 
 h1 {
-    font-size: 370%;
-    line-height:100%;
-    font-family: 'Amatic SC';
+    position: absolute;
+    width: 503px;
+    height: 97px;
+    left: 109px;
+    top: 353px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+
+    color: #000000;
 }
 
 
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 130%;
-    line-height:120%;
-    color: rgb(100,100,100);
+    position: absolute;
+    width: 1024px;
+    height: 47px;
+    left: 109px;
+    top: 450px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: rgba(63, 60, 71, 0.74);
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 110%;
-    line-height:140%;
-    color: rgb(50,50,50);
+    position: absolute;
+    width: 982px;
+    height: 112px;
+    left: 109px;
+    top: 547px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
 }
 
 
 p {
-    text-align:left;
+    text-align: left;
     -webkit-hyphens:auto;
     -moz-hyphens:auto;
     -ms-hyphens:auto;
