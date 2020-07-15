@@ -29,54 +29,100 @@
 	</header
 		
 	<body>
-		<img src="/images/alma&i.jpeg" width = "40%" alt="alma and i">
-		<h1>Rachel Halpern</h1>
+		<div class = "nav-bar">
+			<div>
+				<a class="nav-bar-title" href="">Rachel Halpern</a>
+			</div>
+			<div class ="nav-bar-buttons">
+				<a class="nav-bar-button" href="#home">HOME</a>
+				<a class="nav-bar-button" href="#about-me">ABOUT ME</a>
+				<a class="nav-bar-button" href="#projects">PROJECTS</a>
+				<a class="nav-bar-button" href="#writing">WRITING</a>
+			</div>
+		</div>
 		
-		<h2>About Me</h2>
+		<scroll-container>
+			<scroll-page id="home">
+				<div class = "screen">
+					<img src="/images/alma&i.jpeg" width = "20%" alt="alma and i">
+					<h1>Hi! I'm Rachel.</h1>
+
+					<p>I'm a rising junior at Barnard College, Columbia University studying computer science on the 
+					intelligent systems track. I'm interested in using technology to create positive impact. When I'm not studying, 
+					I <a href="#writing">write</a> and edit for the Columbia Undergraduate Law Review, play tennis, and run :) </p>
+					
+					<p>Contact: <a href="mailto:rachelhalpern438@gmail.com">rachelhalpern438@gmail.com </a> </p>
+					
+					<p>
+					<a href = "https://github.com/rachelhalpern" target="_blank">
+						<img src="/github.png" width = "10%" alt="github" style="opacity: 0.75;" /> </a>
+					<a href= "https://linkedin.com/in/rachelmhalpern/" target = "_blank">
+						<img src="/linkedin.png" width = "10%" alt="linkedin" style="opacity: 0.75;"/> </a>
+					</p>
 		
-		<p>I'm a rising junior at Barnard College, Columbia University studying computer science on the 
-			intelligent systems track. I'm passionate about leveraging technology to create positive experiences. When I'm not 
-		        exploring computer science, I write and edit for the Columbia Undergraduate Law Review, play tennis, and run :) </p>
-		
-		<p>
-		
-		<h2>Projects</h2>
-		
-		<h3> <a href="https://devpost.com/software/inthegreen" target="_blank">InTheGreen</a></h3>
-		<p> HackCambridge </p>
-		
-		<p> My team and I built a webapp frontend that displays a user's personal "investment tree" linked with the user's stock portfolio.
-		A Python backend hosted on Microsoft Azure tracks the fund composition in real-time and webscrapes environmental, social and corporate governance (ESG) risk scores from Yahoo Finance. 
-		A weighted average and other comparisons are computed and made available to the webapp through a Flask-API. </p>
+				</div>
+			</scroll-page>
 			
-		<p> Built with: azure, beautiful-soup, css, flask, html, javascript, json, numpy, pandas, python, regex
-			Won 2nd place in the Microsoft Hack For Good Challenge</p>	
+			<scroll-page id="about-me">
+				<div class = "screen">
+					<h1> About Me </h1>
+					
+					<p>During my freshman year at the University of Vermont, I took my first programming class...and I was
+					hooked. </p>
+				</div>
+			</scroll-page>
 			
-		<p>Check out our webapp here:
-		</p>
+			<scroll-page id="projects">
+				<div class = "screen">				
 		
-		<!---- <iframe width="420" height="315"
-			src = "https://htmlpreview.github.io/?https://github.com/ryanctlin/InTheGreen/blob/master/_webApp/main.html">
-		</iframe>--->
+					<h1>Projects</h1>
 		
-		<a href = "https://htmlpreview.github.io/?https://github.com/ryanctlin/InTheGreen/blob/master/_webApp/main.html" target="_blank"><img src="/images/inthegreen.png" width="420" height="420"></a>
+					<h3> <a href="https://devpost.com/software/inthegreen" target="_blank">InTheGreen</a></h3>
+					<p> HackCambridge </p>
 		
-		<h3> <a href="https://officehours.netlify.app/" target="_blank"> Office Hours Redesigned </a> </h3>
-			<p> <a href = "http://designatcolumbia.com/" target="_blank">Design@Columbia </a>
-		Watch my team present our project here:	
-			</p>
-		<iframe width="420" height="315"
-			src="https://www.youtube.com/embed/XjHq0xfACgc">
-		</iframe>
+					<p> My team and I built a webapp frontend that displays a user's personal "investment tree" linked with the user's stock portfolio.
+					A Python backend hosted on Microsoft Azure tracks the fund composition in real-time and webscrapes environmental, social and corporate governance (ESG) risk scores from Yahoo Finance. 
+					A weighted average and other comparisons are computed and made available to the webapp through a Flask-API. </p>
+			
+					<p> Built with: azure, beautiful-soup, css, flask, html, javascript, json, numpy, pandas, python, regex</p>
+					<p>Won 2nd place in the Microsoft Hack For Good Challenge</p>	
+			
+					<p>Check out our webapp here:</p>
 		
-		<p> Contact: <a href="mailto:rachelhalpern438@gmail.com">rachelhalpern438@gmail.com </a> </p>
-		<p>
-			<a href = "https://github.com/rachelhalpern" target="_blank">
-				<img src="/github.png" width = "10%" alt="github" style="opacity: 0.75;" /> </a>
-			<a href= "https://linkedin.com/in/rachelmhalpern/" target = "_blank">
-				<img src="/linkedin.png" width = "10%" alt="linkedin" style="opacity: 0.75;"/> </a>
-		</p>
+					<a href = "https://htmlpreview.github.io/?https://github.com/ryanctlin/InTheGreen/blob/master/_webApp/main.html" target="_blank"><img src="/images/inthegreen.png" width="420" height="420"></a>
 		
+					<h3> <a href="https://officehours.netlify.app/" target="_blank"> Office Hours Redesigned </a> </h3>
+					<p> <a href = "http://designatcolumbia.com/" target="_blank">Design@Columbia </a></p>
+					<p>My team and I sought to redesign the model of office hours for computer science courses at Columbia University. We looked to improve time efficiency and honor COVID social-distancing guidelines while retaining the working features of office hours. 
+					We sketched and designed several solutions; our mockup highlights the main feature, a queue, for students to receive push notifications when it's their turn to ask questions. Next steps include researching with professors, implementing an announcement 
+					feature, and developing a desktop version.</p>
+					<p>Watch my team present our project here:</p>	
+
+					<iframe width="420" height="315"
+						src="https://www.youtube.com/embed/XjHq0xfACgc">
+					</iframe>
+		
+				</div>
+			</scroll-page>
+			
+			<scroll-page id="writing>
+				<div class = "screen">
+					<h1>Writing</h1>
+					<p><a href="https://www.culawreview.org/journal/national-emergency-exemption-patents-in-the-time-of-coronavirus">Patents in the Time of Coronavirus</a>
+					Opinion piece for Columbia Undergraduate Law Review (CULR) arguing for seamless access to relevant patented property in national emergencies.</p>
+					<p><a href="https://www.culawreview.org/journal/espinoza-v-montana-2019-should-my-public-tax-dollars-pay-for-your-religious-private-school-education?fbclid=IwAR2hY4v3MwAzqGeidn_mo2zHPayqk0l-u0-C_HVPm6MaEdMbkYlnOKV2xlU">
+					Espinosa v. Montana (2019)</a>
+					Opinion piece for CULR calling for the US Supreme Court to use this case decision to clarify the relationship between church and state in terms of funding, 
+					and outlining the potential consequences of a ruling in favor of Espinoza. Fun fact: on June 30, 2020, the US Supreme Court ruled in a 5-4 decision against my position, in favor of Espinoza. </p>
+					<p><a href="https://www.culawreview.org/journal/social-media-in-civil-law">Social Media in Civil Law</a>
+					My first opinion piece for CULR arguing that civil law must adapt to accommodate interactions between the right to privacy and the growing online domain.</p>
+															  
+					<p><a href="https://www.vault.com/blogs/coronavirus/college-life-under-quarantine"> College Life Under Quarantine</a>
+					Blog post I wrote for Vault.com shortly after the transition to online classes prompted by COVID-19.</p>
+				</div>
+			</scroll-page>
+		</scroll-container>
+								
 	</body>
 	
 	
