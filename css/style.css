@@ -5,17 +5,17 @@ body{
 
 a{
   text-decoration: none;
-  color: purple;
+  color: blue;
 }
 
 a:hover{
   text-decoration: none;
-  color: purple;
+  color: blue;
 }
   
 a:active{
   text-decoration: none;
-  color: purple;
+  color: blue;
 }
 
 
