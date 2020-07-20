@@ -1,6 +1,7 @@
 
 body{
   font-family: "Open Sans";
+  text-align: center;
 }
 
 nav-bar.nav-bar-title.a{
@@ -8,11 +9,13 @@ nav-bar.nav-bar-title.a{
   color: black; 
   font-weight: bold;
   font-size: 150%;
+  text-align: center;
 }
 
 nav-bar-button.a{
   text-decoration: none; 
   color: black;
+  text-align: center;
 }
 
 a{
@@ -30,6 +33,17 @@ a:active{
   color: #00008B;
 }
 
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
 
 img.screen{
   border-radius: 25px;
