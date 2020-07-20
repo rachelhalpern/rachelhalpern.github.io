@@ -21,6 +21,7 @@ nav-bar.nav-bar-button.a{
 a{
   text-decoration: none;
   color: blue;
+  text-align: center;
 }
 
 a:hover{
