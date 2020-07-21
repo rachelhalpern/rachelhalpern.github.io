@@ -1,7 +1,8 @@
 
 body{
   font-family: "Open Sans";
-  text-align: center;
+  margin-right: 150 px;
+  margin-left: 150 px;
 }
 
 nav-bar.nav-bar-title.a{
@@ -9,7 +10,6 @@ nav-bar.nav-bar-title.a{
   color: black; 
   font-weight: bold;
   font-size: 150%;
-  text-align: center;
 }
 
 nav-bar.nav-bar-button.a{
@@ -21,7 +21,6 @@ nav-bar.nav-bar-button.a{
 a{
   text-decoration: none;
   color: blue;
-  text-align: center;
 }
 
 a:hover{
@@ -35,23 +34,25 @@ a:active{
 }
 
 h1{
-  text-align: center;
+  margin-right: 150 px;
+  margin-left: 150 px;
 }
 
 h2{
-  text-align: center;
+  margin-right: 150 px;
+  margin-left: 150 px;
 }
 
 p{
-  text-align: center;
+  margin-right: 150 px;
+  margin-left: 150 px;
 }
 
 img.screen{
-  border-radius: 25px;
-  border: 5px solid #555;
-  padding: 20px;
   width: 200 px; 
   height: 150 px;
+  margin-right: 150 px;
+  margin-left: 150 px;
 }
 
 
