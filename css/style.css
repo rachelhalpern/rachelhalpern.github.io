@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-body{
-  font-family: "Open Sans";
-  margin-right: 150 px;
-  margin-left: 150 px;
+html {
+    font-size: 115%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height:140%;
+    min-height: 100vh;
 }
 
 nav-bar.nav-bar-title.a{
