@@ -14,18 +14,35 @@ body {
     min-height: 100vh;
 }
 
-nav-bar.nav-bar-title.a{
-  text-decoration: none;
-  color: black; 
-  font-weight: bold;
-  font-size: 150%;
+#header {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 60px 12px;
 }
 
-nav-bar.nav-bar-button.a{
-  text-decoration: none; 
-  color: black;
-  text-align: center;
+header nav {
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
+
+header .nav-item {
+    display: inline;
+    margin: 0 8px;
+}
+
+header .nav-item:first-of-type {
+    margin-left: 48px;
+}
+
 
 a{
   text-decoration: none;
