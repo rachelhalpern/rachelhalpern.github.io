@@ -12,19 +12,6 @@ body {
     top: 0;
 }
 
-.nav-bar.nav-bar-title.a{
-  text-decoration: none;
-  color: black; 
-  font-weight: bold;
-  font-size: 150%;
-}
-
-.nav-bar.nav-bar-button.a{
-  text-decoration: none; 
-  color: black;
-  text-align: center;
-}
-
 a{
   text-decoration: none;
   color: blue;
