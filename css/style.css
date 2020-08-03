@@ -11,6 +11,7 @@ body {
     position: fixed;
     background-color: #FFFFFF;
     top: 0;
+    width: 100%;
 }
 
 a{
