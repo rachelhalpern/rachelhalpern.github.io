@@ -81,6 +81,56 @@ img.screen{
   margin-left: 150 px;
 }
 
+.screen {
+    /*same height as nav bar*/
+    padding-top: 68px;
+}
+
+.screen p {
+    color: #555555;
+    font-size: 19px;
+    padding: 0px;
+    line-height: 1.4;
+}
+
+.screen a {
+    color:#274cce;
+    text-decoration: none;
+}
+
+.screen h1 {
+    margin: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .screen {
+        padding-top: 100px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+}
+  
+.column img {
+    vertical-align: middle;
+    width: 100%;
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
 
   
 
