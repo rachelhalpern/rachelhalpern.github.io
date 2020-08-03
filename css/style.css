@@ -9,7 +9,7 @@ body {
 .nav-bar{
     overflow: hidden;
     position: fixed;
-    background-color: #FFFFFF;
+    background-color: #333;
     top: 0;
 }
 
