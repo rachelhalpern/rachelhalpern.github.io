@@ -1,37 +1,52 @@
 
 
-body {
+html, body {
     font-family: 'Open Sans', sans-serif;
     margin:0;
-    padding:0;
-}
-
-.nav-bar{
+    height: 100%;
     overflow: hidden;
+}
+
+scroll-container{
+    display: block;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 0% 27%;
+}
+
+.nav-bar {
+    background-color: white;
+    min-height: 50px;
+    display: flex;
     position: fixed;
-    background-color: #FFFFFF;
-    top: 0;
-    width: 100%;
+    width: -webkit-fill-available;
+    padding: 10px 27%;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0.2px 0px;
 }
 
-.nav-bar.nav-bar-title a{
-  text-decoration: none;
-  color: black; 
-  font-weight: bold;
-  font-size: 150%;
-}
-
-.nav-bar.nav-bar-button a{
-  text-decoration: none; 
-  color: black;
-  text-align: center;
-  width: 25%;
+.nav-bar.buttons{
+    display:flex;
 }
 
 
-a{
-  text-decoration: none;
-  color: blue;
+.nav-bar-button {
+    text-decoration: none; 
+    color: black;
+    text-transformation: none;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.nav-bar-title {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    font-weight: bold;
+    line-height: 40px;
 }
 
 a:hover{
