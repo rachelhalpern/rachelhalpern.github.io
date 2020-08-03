@@ -49,6 +49,17 @@ scroll-container{
     line-height: 40px;
 }
 
+@media screen and (max-width: 900px) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 0 10%;
+    }
+    scroll-container {
+        padding: 0 10%;
+    }
+    
+}
+
 a:hover{
   text-decoration: none;
   color: blue;
